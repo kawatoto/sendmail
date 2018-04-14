@@ -52,8 +52,8 @@ func TestEval(t *testing.T) {
 	//setup attrs
 	to := "adavilag@tibco.com"
 	tc.SetInput("to", to)
-	tc.SetInput("from", "adavilag0600@gmail.com")
-	tc.SetInput("password", "Parachutes1")
+	tc.SetInput("from", "something@mail.com")
+	tc.SetInput("password", "Password")
 	tc.SetInput("subject", "Test from Flogo")
 	tc.SetInput("message", "Hi! This is a message sent from Flogo")
 
